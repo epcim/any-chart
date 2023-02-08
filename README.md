@@ -13,6 +13,11 @@ Pre-set is BJW-S library, originally part of k8s-at-home (as I do understand).
 Common values:
 - https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common/values.yaml
 
+Alternatives:
+- https://github.com/buttahtoast/helm-charts/tree/master/charts/library
+- https://helmize.dev/
+
+
 Example:
 ```
 image:

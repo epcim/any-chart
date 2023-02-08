@@ -3,5 +3,6 @@ home: https://github.com/epcim/any-chart
 
 dependencies:
 - name: common
-  repository: https://bjw-s.github.io/helm-charts
   version: 1.2.1
+  repository: file://../bjws-helm-library
+  #repository: https://bjw-s.github.io/helm-charts

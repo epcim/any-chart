@@ -1,0 +1,19 @@
+
+
+apiVersion: vendir.k14s.io/v1alpha1
+kind: Config
+directories:
+- path: .repos
+  contents:
+  - path: bjws-helm-library
+    git:
+      url: https://github.com/bjw-s/helm-charts
+      ref: main
+
+
+# sundirectory, https://github.com/carvel-dev/vendir/issues/14
+- path: bjws-helm-library
+  contents:
+  - path: .
+    directory:
+      path: .repos/bjws-helm-library/charts/library/common
